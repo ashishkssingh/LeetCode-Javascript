@@ -54,8 +54,8 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
  * @param {string} s
  * @return {number}
  */
- var romanToInt = function(s) {
-    roman_number_map = {
+ const romanToInt = function(s) {
+    const roman_number_map = {
         "I": 1,
         "V": 5,
         "X": 10,
@@ -64,7 +64,7 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
         "D": 500,
         "M": 1000,
     }
-    result = roman_number_map[s[0]]
+    let result = roman_number_map[s[0]]
 
         for(let index = 1; index < s.length; index++){
             if(roman_number_map[s[index - 1]] >= roman_number_map[s[index]])
