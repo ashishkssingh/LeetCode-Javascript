@@ -2,7 +2,7 @@
 
 ## LeetCode Algorithm
 
-LeetCode problem solutions using java
+LeetCode problem solutions using JavaScript
 
 | # | Title                                                                 | Solution                                        | Difficulty |
 |---|-----------------------------------------------------------------------|-------------------------------------------------|------------|
